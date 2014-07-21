@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Geocrafter || Extractos OSM para municípios de Portugal</title>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=1024, user-scalable=no">
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<script src="js/osmpt-analytics.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+		<!-- Maps css -->
+		<link rel="stylesheet" href="css/osmpt.min.css">	
+
+	</head>
+
+<body class="bg-fixed bg-1">
+
+	<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Topo</a></li>
+					<li><a href="#continente">Continente</a></li>
+					<li><a href="#azores">Açores</a></li>
+					<li><a href="#madeira">Madeira</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="http://wiki.openstreetmap.org/w/images/thumb/7/79/Public-images-osm_logo.svg/256px-Public-images-osm_logo.svg.png" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1>Bem Vindo!</h1>
+							</header>
+							<p>Extractos OSM por Municípios de Portugal</p>
+							<a href="#continente" class="button button-small" style="width=200px">Continente</a>
+							<a href="#azores" class="button button-small" style="width=200px">Açores    </a>
+							<a href="#madeira" class="button button-small" style="width=200px">Madeira   </a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Continente -->
+			<div class="wrapper wrapper-style3">
+				<article id="continente" class="container small">
+					<header>
+						<h2>Extractos Continente</h2>
+						<span>Clique no município pretendido para obter os formatos disponíveis.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<div id="contMap" class="leaflet-container leaflet-fade-anim" style="height: 400px;" tabindex="0"></div>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; <a href="http://thegeocrafter.github.io/">2014 The Geocrafter</a></li></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+		<!-- Azores -->
+			<div class="wrapper wrapper-style2">
+				<article id="azores" class="container small">
+					<header>
+						<h2>Extractos Açores</h2>
+						<span>Clique no município pretendido para obter os formatos disponíveis.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<div id="azoMap" class="leaflet-container leaflet-fade-anim" style="height: 400px;" tabindex="2"></div>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; <a href="http://thegeocrafter.github.io/">2014 The Geocrafter</a></li></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+		<!-- Madeira -->
+			<div class="wrapper wrapper-style3">
+				<article id="madeira" class="container small">
+					<header>
+						<h2>Extractos Madeira</h2>
+						<span>Clique no município pretendido para obter os formatos disponíveis.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<div id="madMap" class="leaflet-container leaflet-fade-anim" style="height: 400px;" tabindex="2"></div>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; <a href="http://thegeocrafter.github.io/">2014 The Geocrafter</a></li></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+		<!-- Contact -->
+			<div class="wrapper wrapper-style4">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Curioso sobre o meu trabalho?</h2>
+						<span>Pode encontrar-me nas seguintes plataformas.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Por onde ando ...</h3>
+								<ul class="social">
+									<li class="gmail"><a href="mailto:geocrafter.the@gmail.com" class="fa fa-envelope"><span>geocrafter.the@gmail.com</span></a></li>
+									<li class="linkedin"><a href="http://pt.linkedin.com/in/fernandinand" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+									<li class="github"><a href="http://github.com/thegeocrafter" class="fa fa-github"><span>Github</span></a></li>
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; <a href="http://thegeocrafter.github.io/">2014 The Geocrafter</a></li>
+							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+	<script type="text/javascript" src="js/osmpt.min.js"></script>
+</body>
+</html>
