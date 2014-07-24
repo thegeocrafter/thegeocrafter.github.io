@@ -1,6 +1,6 @@
 
 $(function () {
-        var contactMap = new L.Map('map').setView([40.115, -8.5122], 14); 
+        var contactMap = new L.Map('map', {maxBounds: ([[40.0603,-8.5501],[40.1405,-8.3908]])}).setView([40.115, -8.5122], 14); 
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
