@@ -6,14 +6,14 @@
 -->
 <html>
 	<head>
-		<title>OpenCarto || powered by The Geocrafter</title>
+		<title>Suadeo || powered by The Geocrafter</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8;" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     	<meta name="viewport" content="width=1024, user-scalable=no">
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
-		<script src="js/opencarto-analytics.js"></script>
+		<script src="js/censusmap-analytics.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -25,11 +25,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
-
-		<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
-
+		
 	</head>
 	<body>
 
@@ -38,7 +34,7 @@
 				<ul class="container">
 					<li><a href="#top">Topo</a></li>
 					<li><a href="#about">Sobre</a></li>
-					<li><a href="#demo">Demo</a></li>
+					<li><a href="#demo">+Info</a></li>
 					<li><a href="#contact">Contacto</a></li>
 				</ul>
 			</nav>
@@ -48,14 +44,14 @@
 				<article class="container" id="top">
 					<div class="row">
 						<div class="4u">
-							<span class="me image image-full"><img src="images/opencarto.png" alt="" /></span>
+							<span class="me image image-full"><img src="images/suadeo.png" alt="" /></span>
 						</div>
 						<div class="8u">
 							<header>
-								<h1><strong>OpenCarto</strong><br /><br />Qualidade e Actualidade</h1>
+								<h1><strong>Suadeo</strong><br /><br />Fomentando a cidadania activa.</h1>
 							</header>
-							<p>Cartografia de qualidade com informação livre!</p>
-							<a href="#about" class="button button-big">Mais sobre o OpenCarto</a>
+							<p>A consulta pública chega às redes sociais!</p>
+							<a href="#about" class="button button-big">Mais sobre o Suadeo</a>
 						</div>
 					</div>
 				</article>
@@ -65,30 +61,31 @@
 			<div class="wrapper wrapper-style2">
 				<article id="about">
 					<header>
-						<h2>Informação Livre</h2>
-						<span>Na base do OpenCarto está informação livre de qualidade</span>
+						<h2>Plataforma flexível</h2>
+						<span>O Suadeo é facilmente configurável para 
+							ir ao encontro das necessidades dos clientes.</span>
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="4u">
 								<section class="box box-style1">
-									<span class="fa featured fa-map-marker"></span>
-									<h3><a href="http://www.openstreetmap.org">OSM</a></h3>
-									<p>A enciclopédia geolivre.</p>
+									<span class="fa featured fa-facebook"></span>
+									<h3>Social</h3>
+									<p>Autenticação via redes sociais.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
-									<span class="fa featured fa-euro"></span>
-									<h3><a href="http://www.eea.europa.eu">EEA</a></h3>
-									<p>Aster DTM rectificado de 25m.</p>
+									<span class="fa featured fa-cog fa-spin"></span>
+									<h3>Performance</h3>
+									<p>Plataforma com base em Django.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
-									<span class="fa featured fa-cloud"></span>
-									<h3><a href="http://www.dgterritorio.pt">DGT</a></h3>
-									<p>Informação auxiliar.</p>
+									<span class="fa featured fa-mobile"></span>
+									<h3>Multi-Plataforma</h3>
+									<p>Preparado para plataformas mobile.</p>
 								</section>
 							</div>
 						</div>
@@ -102,15 +99,60 @@
 
 		<!-- DEMO -->
 			<div class="wrapper wrapper-style3">
-				<article id="demo" class="container small">
+				<article id="demo">
 					<header>
-						<h2>Demonstração</h2>
-						<span>Verifique em detalhe o <b>OpenCarto</b>.</span>
+						<h2>Características</h2>
+						<span>Verifique aqui todas as capacidades do <b>Suadeo</b>.</span>
 					</header>
-					<div>
+					<div class="container">
 						<div class="row">
 							<div class="12u">
-								<div id="map" class="leaflet-container leaflet-fade-anim" style="height: 600px; position: relative; background-color: transparent" tabindex="0"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_auth.png" alt="" /></a>
+									<h3>Autenticação</h3>
+									<p>Ligação pelas redes sociais</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_place.png" alt="" /></a>
+									<h3>Simplicidade</h3>
+									<p>Novos locais sem complexidade</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_comments.png" alt="" /></a>
+									<h3>Social</h3>
+									<p>Suporte e comentários</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_listview.png" alt="" /></a>
+									<h3>Lista</h3>
+									<p>Listagem de lugares</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_admin.png" alt="" /></a>
+									<h3>Backoffice</h3>
+									<p>Administração simplificada</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a class="image image-full"><img src="images/suadeo_gis.png" alt="" /></a>
+									<h3>GIS</h3>
+									<p>Informação disponível no GIS</p>
+								</article>
 							</div>
 						</div>
 					</div>
@@ -155,6 +197,6 @@
 		<!-- DEVELOPMENT -->
 		<!--script type="text/javascript" src="js/map.js"></script-->
 		<!-- RELEASE -->
-		<script type="text/javascript" src="js/opencarto.js"></script>				
+		<script type="text/javascript" src="js/censusmap.min.js"></script>				
 	</body>
 </html>
