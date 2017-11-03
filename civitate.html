@@ -6,13 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Civitate || powered by Geocrafter</title>
+		<title>Civitate || powered by Geocrafter - Geospatial Studio</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8;" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     	<meta name="viewport" content="width=1024, user-scalable=no">
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 		<script src="js/suadeo-analytics.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
@@ -23,7 +24,7 @@
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
 		<style>
-			h1   {font-family: 'Archeologicaps';}
+			h1   {font-family: 'Orbitron'; font-size: 6em; font-weight: bold;}
 			.image {background: black;}
 		</style>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
@@ -54,9 +55,9 @@
 						</div>
 						<div class="8u">
 							<header>
-								<h1><strong>Civitate</strong></h1><h2><br />Fomentando a cidadania activa.</h2>
+								<h1><strong>Civitate</strong></h1><h2>Fomentando uma cidadania activa.</h2>
 							</header>
-							<p>A consulta pública chega às redes sociais!</p>
+							<!--p>A consulta pública chega às redes sociais!</p-->
 							<a href="#about" class="button button-big">Mais sobre o Civitate</a>
 						</div>
 					</div>
@@ -68,16 +69,16 @@
 				<article id="about">
 					<header>
 						<h2>Plataforma para SmartCities</h2>
-						<span>Uma plataforma SaaS para a sua SmartCity!</span></br>
-						<span>Fomente uma cidadania activa e moderna com o <strong>Civitate</strong>.</span>
+						<span>Uma plataforma <strong>SaaS</strong> para a sua <strong>SmartCity!</strong></span></br>
+						<span>Fomente uma cidadania activa com o <strong>Civitate</strong>.</span>
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-euro"></span>
-									<h3>Planos</h3>
-									<p>A partir de <strong>10€</strong> por mês<small>*</small>.</p>
+									<a href="#plans"><h3>Planos</h3></a>
+									<p>A partir de <strong>120€</strong> por ano<small>*</small>!</p>
 								</section>
 							</div>
 							<div class="4u">
@@ -91,7 +92,7 @@
 								<section class="box box-style1">
 									<span class="fa featured fa-lightbulb-o"></span>
 									<h3>Simplicidade</h3>
-									<p>Simples e intuitívo!</p>
+									<p>Simples e intuitivo!</p>
 								</section>
 							</div>
 						</div>
@@ -107,14 +108,14 @@
 								<section class="box box-style1">
 									<span class="fa featured fa-cog fa-spin"></span>
 									<h3>Performance</h3>
-									<p>Plataforma com base em Django.</p>
+									<p>Plataforma ágil e eficiente.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-mobile"></span>
-									<h3>Multi-Plataforma</h3>
-									<p>Preparado para plataformas mobile.</p>
+									<h3>Mobile</h3>
+									<p>Multi plataforma.</p>
 								</section>
 							</div>
 						</div>						
@@ -123,8 +124,8 @@
 						<p>É o que procura?</p>
 						<a href="#demo" class="button button-big">Ver Demo</a>
 					</footer>
-					<small>* Preço sem IVA e na modalidade de servidor e base de dados partilhados.</br>
-						Para mais detalhes veja os planos disponíveis</small>
+					<small>* Preço sem IVA.</br>
+						Para mais detalhes veja os <a href="#plans" >planos</a> disponíveis</small>
 				</article>
 			</div>
 
@@ -139,23 +140,23 @@
 						<div class="row">
 							<div class="4u">
 								<section class="box box-style1">
-									<span class="fa featured fa-check-circle"></span>
-									<h3>Básico <small>(recomendado)</small></h3>
-									<p><strong>10€</strong> por mês<small>*</small>.</br>- 1 API Key</br>- Servidor e BD partilhados</p>
+									<a href="#civitate-freguesias"><span class="fa featured fa-flag"></span></a>
+									<a href="#civitate-freguesias"><h3>Freguesias Edition</h3></a>
+									<p>A partir de <strong>120€</strong> por ano<small>*</small>.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
-									<span class="fa featured fa-gear"></span>
-									<h3>SmartCity</h3>
-									<p><strong>40€</strong> por mês<small>*</small>.</br>- Até 6 API Key</br>- Servidor e BD dedicados</p>
+									<a href="#civitate-municipal"><span class="fa featured fa-building"></span></a>
+									<a href="#civitate-municipal"><h3>Civitate Municipal</h3></a>
+									<p>A partir de <strong>400€</strong> por ano<small>*</small>.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-gears"></span>
-									<h3>Enterprise</h3>
-									<p><strong>120€</strong> por mês<small>*</small>.</br>- API Keys Ilimitadas</br>- Servidor e BD dedicados</p>
+									<h3>Soluções à medida</h3>
+									<p>Contacte-nos para uma proposta!</p>
 								</section>
 							</div>
 						</div>						
@@ -163,7 +164,7 @@
 						<p>Já escolheu o seu plano?</p>
 						<a href="#contact" class="button button-big">Contacto</a>
 					</footer>
-					<small>* Os preços apresentados não incluem IVA à taxa em vigor.</small>
+					<small>* Os preços apresentados não incluem IVA à taxa legal em vigor.</small>
 				</article>
 			</div>
 
@@ -182,14 +183,14 @@
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a class="image image-full"><img style="background: white;" src="images/suadeo_auth.png" alt="" /></a>
+									<a class="image image-full"><img style="background: white;" src="images/civitate_auth.png" alt="" /></a>
 									<h3>Autenticação</h3>
 									<p>Ligação pelas redes sociais</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a class="image image-full"><img src="images/suadeo_place.png" alt="" /></a>
+									<a class="image image-full"><img src="images/civitate_novo.png" alt="" /></a>
 									<h3>Simplicidade</h3>
 									<p>Novos locais sem complexidade</p>
 								</article>
@@ -212,7 +213,7 @@
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a class="image image-full"><img src="images/suadeo_admin.png" alt="" /></a>
+									<a class="image image-full"><img src="images/civitate_admin.png" alt="" /></a>
 									<h3>Backoffice</h3>
 									<p>Administração simplificada</p>
 								</article>
@@ -242,13 +243,16 @@
 					</header>
 					<div class="container">
 						<div class="row">
-							<div class="12u">
-								<a href="http://civitate.geocrafter.eu/civitate-rp" target="_blank" class="button button-big">Módulo Reporte Ocorrências</a>
+							<div class="12u">						
+								<a href="http://civitate.geocrafter.eu/civitate-jfalvorge" target="_blank" class="button button-big">Freguesias Edition</a>
 							</div>
-						</div>
+						</div>						
 						<div class="row">
 							<div class="12u">
+								<hr />
+								<p><h2>Civitate Municipal</h2></p>
 								<a href="http://civitate.geocrafter.eu/civitate-op" target="_blank" class="button button-big">Módulo Orçamento Participativo</a>
+								<hr />
 							</div>
 						</div>
 					</div>
@@ -259,13 +263,107 @@
 				</article>
 			</div>
 
+		<!-- Freguesias Edition -->
+			<div class="wrapper wrapper-style2">
+				<article id="civitate-freguesias">
+					<header>
+						<h2>Freguesias Edition</h2>
+						<span>O Civitate leve e acessível!</span></span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-euro"></span>
+									<h3>Baixo Custo</h3>
+									<p>A partir de <strong>120€</strong> por ano<small>*</small>.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-group"></span>
+									<h3>Social</h3>
+									<p>Principais redes sociais suportadas.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-thumbs-up"></span>
+									<h3>Simples</h3>
+									<p>Fácil e divertido!</p>
+								</section>
+							</div>
+						</div>						
+					<footer>
+						<p>É isto que procura?</p>
+						<a href="#contact" class="button button-big">Contacto</a>
+					</footer>
+					<small>* Os preços apresentados não incluem IVA à taxa legal em vigor.</small>
+				</article>
+			</div>
+
+		<!-- Civitate Municipal -->
+			<div class="wrapper wrapper-style2">
+				<article id="civitate-municipal">
+					<header>
+						<h2>Civitate Municipal</h2>
+						<span>Veja os módulos que temos disponíveis para o seu Município</span></span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-check-circle"></span>
+									<h3>Alerta e Reporte</h3>
+									<p>A partir de <strong>400€</strong> por ano<small>*</small>.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-user"></span>
+									<h4>Orçamento Participativo</h4>
+									<p>A partir de <strong>800€</strong> por ano<small>*</small>.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-comments-o"></span>
+									<h3>Discussão Pública</h3>
+									<p>A partir de <strong>800€</strong> por ano<small>*</small>.</p>
+								</section>
+							</div>
+						</div>						
+					<footer>
+						<p>Transforme o seu município numa SmartCity!</p>
+						<a href="#contact" class="button button-big">Contacto</a>
+					</footer>
+					<small>* Os preços apresentados não incluem IVA à taxa legal em vigor.</small>
+				</article>
+			</div>
+
 		<!-- Contact -->
 			<div class="wrapper wrapper-style4">
 				<article id="contact" class="container small">
+					<div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<ul class="social">
+									<p><h3>Pergunte-nos mais sobre o </h3></p>
+									<p><h1 style="line-height: 1em;">Civitate</h1></p>
+									<li class="gmail"><a href="mailto:civitate@geocrafter.eu" class="fa fa-envelope"><span>civitate@geocrafter.eu</span></a></li>
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
 					<header>
-						<h2>Curioso sobre o nosso trabalho?</h2>
+						<p><h2>Desenvolvido com <i class="fa fa-heart-o pulse"></i> pela</h2></p>
+						<p><h1 style="font-size: 3em;line-height: 1em;">Geocrafter - Geospatial Studio</h1></p>
+						<hr />
+						<p><h2>Curioso sobre o nosso trabalho?</h2></p>
 						<span>Pode encontrar-nos nas seguintes plataformas.</span>
-					</header>
+					</header>					
 					<div>
 						<div class="row">
 							<div class="12u">
@@ -283,7 +381,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; <a href="http://thegeocrafter.github.io/">2016 Geocrafter - GeoSpatial Studio</a></li>
+							<li>&copy; <a href="http://thegeocrafter.github.io/">2017 Geocrafter - Geospatial Studio</a></li>
 							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
 						</ul>
 					</footer>
