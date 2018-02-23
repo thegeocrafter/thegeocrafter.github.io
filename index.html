@@ -11,6 +11,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 		<script src="js/analytics.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
@@ -18,7 +19,7 @@
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />			
+			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
 		<link rel="stylesheet" href="css/calendar.css" />
 		<!-- Leaflet -->
@@ -28,7 +29,9 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-
+		<style>
+			h1   {font-family: 'Orbitron'; font-size: 4em; font-weight: normal;}
+		</style>
 	</head>
 	<body>
 
@@ -36,7 +39,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
-					<li><a href="#work">About me</a></li>
+					<li><a href="#work">About us</a></li>
 					<li><a href="#news">News</a></li>
 					<li><a href="#portfolio">Craftfolio</a></li>
 					<li><a href="http://thegeocrafter.url.ph/blog/" target="_blank">Blog</a></li>
@@ -49,13 +52,13 @@
 				<article class="container" id="top">
 					<div class="row">
 						<div class="4u">
-							<span class="me image image-full"><img src="images/logo_bkg.png" alt="" /></span>
+							<span class="me image image-full"><img src="images/front-logo.png" alt="" /></span>
 						</div>
 						<div class="8u">
 							<header>
-								<h1>Hello!<br /><br /> This is <strong>The Geocrafter</strong>.</h1>
+								<h1>Geocrafter<br /><br /> Geospatial Studio</h1>
 							</header>
-							<p>GeoSpatialIT &bull; Software Developer &bull; Physical Geographer </p>
+							<p>(FOSS)GeoIT &bull; Software &bull; Support </p>
 							<a href="#work" class="button button-big">Get some crafting flavour</a>
 						</div>
 					</div>
@@ -110,7 +113,7 @@
 					</header>
 					<div class="container">
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2015-07-07" class="icon">
 									  <em>Tuesday</em>
@@ -123,7 +126,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2015-01-23" class="icon">
 									  <em>Friday</em>
@@ -136,7 +139,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2014-10-29" class="icon">
 									  <em>Tuesday</em>
@@ -149,7 +152,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2014-10-06" class="icon">
 									  <em>Monday</em>
@@ -162,7 +165,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2014-09-19" class="icon">
 									  <em>Friday</em>
@@ -174,7 +177,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">							
+							<div class="12u">
 								<span>
 									<time datetime="2014-09-12" class="icon">
 									  <em>Friday</em>
@@ -184,7 +187,7 @@
 								We are excited as we released our first stable version of <a href="#portfolio"><b>Suadeo</b></a>.
 								</span>
 							</div>
-						</div>						
+						</div>
 					</div>
 				</article>
 			</div>
@@ -273,6 +276,13 @@
 						<div class="row">
 							<div class="12u">
 								<div id="map" class="map leaflet-container leaflet-fade-anim wrapper wrapper-style3" style="height: 300px; position: relative;" tabindex="0"></div>
+								<hr />
+								<div id="contacts">
+									<h3>Contacts</h3>
+										<a href="mailto:info@geocrafter.eu" class="fa fa-building"></a><p>Gabinete de Negócios de Ansião, Gabinete 12, 3240-465 Chão de Couce, Portugal</p>
+										<p><a href="mailto:info@geocrafter.eu" class="fa fa-envelope"><span>info@geocrafter.eu</span></a></p>
+										<p><a href="tel:+351918336529" class="fa fa-phone"><span>+351 918336529</span></a></p>
+								</div>
 							</div>
 						</div>
 						<div class="row">
@@ -282,9 +292,9 @@
 								<ul class="social">
 									<li class="gmail"><a href="mailto:info@geocrafter.eu" class="fa fa-envelope"><span>info@geocrafter.eu</span></a></li>
 									<li class="skype"><a href="skype:fernandinand?call" class="fa fa-skype"><span>fernandinand</span></a></li>
-									<li class="linkedin"><a href="http://pt.linkedin.com/in/thegeocrafter" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
-									<li class="github"><a href="http://github.com/thegeocrafter" class="fa fa-github"><span>Github</span></a></li>
-									<li class="twitter"><a href="https://twitter.com/GeocrafterThe" class="fa fa-twitter"><span>Twitter</span></a></li>
+									<li class="linkedin"><a href="http://pt.linkedin.com/in/fernandinand" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+									<li class="github"><a href="http://github.com/geocrafter-studio" class="fa fa-github"><span>Github</span></a></li>
+									<li class="twitter"><a href="https://twitter.com/GeocrafterGS" class="fa fa-twitter"><span>Twitter</span></a></li>
 								</ul>
 								<hr />
 							</div>
@@ -298,13 +308,12 @@
 					</footer>
 				</article>
 			</div>
-			<!-- Slaask >
-			<script src='https://cdn.slaask.com/chat.js'></script>
-			<script>
-    				_slaask.init('7f5c7047737a7a5c5f29fab470a87cac');
-			</script-->
 
 			<!-- Freshdesk -->
-			<script type='text/javascript'>var fc_CSS=document.createElement('link');fc_CSS.setAttribute('rel','stylesheet');var fc_isSecured = (window.location && window.location.protocol == 'https:');var fc_lang = document.getElementsByTagName('html')[0].getAttribute('lang'); var fc_rtlLanguages = ['ar','he']; var fc_rtlSuffix = (fc_rtlLanguages.indexOf(fc_lang) >= 0) ? '-rtl' : '';fc_CSS.setAttribute('type','text/css');fc_CSS.setAttribute('href',((fc_isSecured)? 'https://d36mpcpuzc4ztk.cloudfront.net':'http://assets1.chat.freshdesk.com')+'/css/visitor'+fc_rtlSuffix+'.css');document.getElementsByTagName('head')[0].appendChild(fc_CSS);var fc_JS=document.createElement('script'); fc_JS.type='text/javascript'; fc_JS.defer=true;fc_JS.src=((fc_isSecured)?'https://d36mpcpuzc4ztk.cloudfront.net':'http://assets.chat.freshdesk.com')+'/js/visitor.js';(document.body?document.body:document.getElementsByTagName('head')[0]).appendChild(fc_JS);window.livechat_setting= 'eyJ3aWRnZXRfc2l0ZV91cmwiOiJnZW9jcmFmdGVyLmZyZXNoZGVzay5jb20iLCJwcm9kdWN0X2lkIjpudWxsLCJuYW1lIjoiR2VvY3JhZnRlciAtIEdlb3NwYXRpYWwgU3R1ZGlvIiwid2lkZ2V0X2V4dGVybmFsX2lkIjpudWxsLCJ3aWRnZXRfaWQiOiJiMjBkNTVhMS02ZjUxLTQ5ZDctYjVlNi1iMTNjZWQ4MzNjNTIiLCJzaG93X29uX3BvcnRhbCI6ZmFsc2UsInBvcnRhbF9sb2dpbl9yZXF1aXJlZCI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJ0aW1lem9uZSI6IkJvZ290YSIsImlkIjozNjAwMDAzNzczMiwibWFpbl93aWRnZXQiOjEsImZjX2lkIjoiZmU1MDVhNDkyOGI3M2RjYWU5MTM1MGI1NzVhMjJjMmMiLCJzaG93IjoxLCJyZXF1aXJlZCI6MiwiaGVscGRlc2tuYW1lIjoiR2VvY3JhZnRlciAtIEdlb3NwYXRpYWwgU3R1ZGlvIiwibmFtZV9sYWJlbCI6Ik5hbWUiLCJtZXNzYWdlX2xhYmVsIjoiTWVzc2FnZSIsInBob25lX2xhYmVsIjoiUGhvbmUiLCJ0ZXh0ZmllbGRfbGFiZWwiOiJUZXh0ZmllbGQiLCJkcm9wZG93bl9sYWJlbCI6IkRyb3Bkb3duIiwid2VidXJsIjoiZ2VvY3JhZnRlci5mcmVzaGRlc2suY29tIiwibm9kZXVybCI6ImNoYXQuZnJlc2hkZXNrLmNvbSIsImRlYnVnIjoxLCJtZSI6Ik1lIiwiZXhwaXJ5IjoxNTIxNjUxMjg5MDAwLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJlbmRfY2hhdF90aGFua19tc2ciOiJUaGFuayB5b3UhISEiLCJlbmRfY2hhdF9lbmRfdGl0bGUiOiJFbmQiLCJlbmRfY2hhdF9jYW5jZWxfdGl0bGUiOiJDYW5jZWwiLCJzaXRlX2lkIjoiZmU1MDVhNDkyOGI3M2RjYWU5MTM1MGI1NzVhMjJjMmMiLCJhY3RpdmUiOjEsInJvdXRpbmciOm51bGwsInByZWNoYXRfZm9ybSI6MSwiYnVzaW5lc3NfY2FsZW5kYXIiOm51bGwsInByb2FjdGl2ZV9jaGF0IjowLCJwcm9hY3RpdmVfdGltZSI6bnVsbCwic2l0ZV91cmwiOiJnZW9jcmFmdGVyLmZyZXNoZGVzay5jb20iLCJleHRlcm5hbF9pZCI6bnVsbCwiZGVsZXRlZCI6MCwibW9iaWxlIjoxLCJhY2NvdW50X2lkIjpudWxsLCJjcmVhdGVkX2F0IjoiMjAxOC0wMi0yMVQxNjo1NTo1NC4wMDBaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDItMjFUMTc6MDQ6NTQuMDAwWiIsImNiRGVmYXVsdE1lc3NhZ2VzIjp7ImNvYnJvd3Npbmdfc3RhcnRfbXNnIjoiWW91ciBzY3JlZW5zaGFyZSBzZXNzaW9uIGhhcyBzdGFydGVkIiwiY29icm93c2luZ19zdG9wX21zZyI6IllvdXIgc2NyZWVuc2hhcmluZyBzZXNzaW9uIGhhcyBlbmRlZCIsImNvYnJvd3NpbmdfZGVueV9tc2ciOiJZb3VyIHJlcXVlc3Qgd2FzIGRlY2xpbmVkIiwiY29icm93c2luZ19hZ2VudF9idXN5IjoiQWdlbnQgaXMgaW4gc2NyZWVuIHNoYXJlIHNlc3Npb24gd2l0aCBjdXN0b21lciIsImNvYnJvd3Npbmdfdmlld2luZ19zY3JlZW4iOiJZb3UgYXJlIHZpZXdpbmcgdGhlIHZpc2l0b3LigJlzIHNjcmVlbiIsImNvYnJvd3NpbmdfY29udHJvbGxpbmdfc2NyZWVuIjoiWW91IGhhdmUgYWNjZXNzIHRvIHZpc2l0b3LigJlzIHNjcmVlbi4iLCJjb2Jyb3dzaW5nX3JlcXVlc3RfY29udHJvbCI6IlJlcXVlc3QgdmlzaXRvciBmb3Igc2NyZWVuIGFjY2VzcyAiLCJjb2Jyb3dzaW5nX2dpdmVfdmlzaXRvcl9jb250cm9sIjoiR2l2ZSBhY2Nlc3MgYmFjayB0byB2aXNpdG9yICIsImNvYnJvd3Npbmdfc3RvcF9yZXF1ZXN0IjoiRW5kIHlvdXIgc2NyZWVuc2hhcmluZyBzZXNzaW9uICIsImNvYnJvd3NpbmdfcmVxdWVzdF9jb250cm9sX3JlamVjdGVkIjoiWW91ciByZXF1ZXN0IHdhcyBkZWNsaW5lZCAiLCJjb2Jyb3dzaW5nX2NhbmNlbF92aXNpdG9yX21zZyI6IlNjcmVlbnNoYXJpbmcgaXMgY3VycmVudGx5IHVuYXZhaWxhYmxlICIsImNvYnJvd3NpbmdfYWdlbnRfcmVxdWVzdF9jb250cm9sIjoiQWdlbnQgaXMgcmVxdWVzdGluZyBhY2Nlc3MgdG8geW91ciBzY3JlZW4gIiwiY2Jfdmlld2luZ19zY3JlZW5fdmkiOiJBZ2VudCBjYW4gdmlldyB5b3VyIHNjcmVlbiAiLCJjYl9jb250cm9sbGluZ19zY3JlZW5fdmkiOiJBZ2VudCBoYXMgYWNjZXNzIHRvIHlvdXIgc2NyZWVuICIsImNiX3ZpZXdfbW9kZV9zdWJ0ZXh0IjoiWW91ciBhY2Nlc3MgdG8gdGhlIHNjcmVlbiBoYXMgYmVlbiB3aXRoZHJhd24gIiwiY2JfZ2l2ZV9jb250cm9sX3ZpIjoiQWxsb3cgYWdlbnQgdG8gYWNjZXNzIHlvdXIgc2NyZWVuICIsImNiX3Zpc2l0b3Jfc2Vzc2lvbl9yZXF1ZXN0IjoiQWdlbnQgc2Vla3MgYWNjZXNzIHRvIHlvdXIgc2NyZWVuICJ9fQ==';</script>
+			<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+			<script type="text/javascript">
+				FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Ajuda+e+Suporte&submitTitle=Enviar+mensagem&submitThanks=Obrigado+pela+sua+mensagem.+Responderemos+na+maior+brevidade+poss%C3%ADvel.&captcha=yes&searchArea=no", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Podemos ajudar?", "buttonColor": "white", "buttonBg": "#3B3B3B", "alignment": "2", "offset": "444px", "submitThanks": "Obrigado pela sua mensagem. Responderemos na maior brevidade possível.", "formHeight": "400px", "captcha": "yes", "url": "https://geocrafter.freshdesk.com"} );
+			</script>
+
 	</body>
 </html>
