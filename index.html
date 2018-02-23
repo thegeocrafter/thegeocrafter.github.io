@@ -32,6 +32,8 @@
 		<style>
 			h1   {font-family: 'Orbitron'; font-size: 4em; font-weight: normal;}
 		</style>
+		<!-- Freshdesk -->
+		<script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script>
 	</head>
 	<body>
 
@@ -308,11 +310,23 @@
 					</footer>
 				</article>
 			</div>
-
 			<!-- Freshdesk -->
-			<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
 			<script type="text/javascript">
-				FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Ajuda+e+Suporte&submitTitle=Enviar+mensagem&submitThanks=Obrigado+pela+sua+mensagem.+Responderemos+na+maior+brevidade+poss%C3%ADvel.&captcha=yes&searchArea=no", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Podemos ajudar?", "buttonColor": "white", "buttonBg": "#3B3B3B", "alignment": "2", "offset": "400px", "submitThanks": "Obrigado pela sua mensagem. Responderemos na maior brevidade possível.", "formHeight": "550px", "captcha": "yes", "url": "https://geocrafter.freshdesk.com"} );
+				FreshWidget.init("", {
+					"queryString": "&widgetType=popup&formTitle=Ajuda+e+Suporte&submitTitle=Enviar+mensagem&submitThanks=Obrigado+pela+sua+mensagem.&captcha=no&searchArea=no",
+					"utf8": "✓",
+					"widgetType": "popup",
+					"buttonType": "text",
+					"buttonText": "Podemos ajudar?",
+					"buttonColor": "white",
+					"buttonBg": "#3B3B3B",
+					"alignment": "2",
+					"offset": "400px",
+					"submitThanks": "Obrigado pela sua mensagem. Responderemos na maior brevidade possível.",
+					"formHeight": "500px",
+					"captcha": "no",
+					"url": "https://geocrafter.freshdesk.com"
+				} );
 			</script>
 
 	</body>
