@@ -5,3 +5,10 @@
   left: 4em !important;
   position: absolute !important;
 }
+
+#advwebForm .zsfeedbackclose
+{
+  position: static !important;
+  float: left !important;
+  margin-top: -2.4em !important;
+}
